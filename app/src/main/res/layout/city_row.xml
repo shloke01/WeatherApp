@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="5dp"
+    android:layout_gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B6BDE8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCity"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnDetails"
+                android:layout_width="0dp"
+                android:layout_weight="0.49"
+                android:layout_height="wrap_content"
+                android:text="@string/view_weather" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.02"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_weight="0.49"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

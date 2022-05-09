@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvFeelsLike"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvVisbility"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:scaleType="fitXY"
+        android:layout_height="100dp"/>
+
+</LinearLayout>

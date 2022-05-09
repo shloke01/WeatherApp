@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_city">Add City</string>
+    <string name="view_weather">View Weather</string>
+    <string name="temperature">Temperature: %1$s °C</string>
+    <string name="feels_like">Feels like: %1$s °C</string>
+    <string name="description"> Description: %1$s</string>
+    <string name="min_temp">Minimum Temperature: %1$s °C</string>
+    <string name="max_temp">Maximum Temperature: %1$s °C</string>
+    <string name="humidity">Humidity: %1$s%%</string>
+    <string name="visibility"> Visibility: %1$s m</string>
+    <string name="wind_speed">Wind Speed: %1$s m/sec</string>
+    <string name="delete">Delete</string>
+    <string name="invalid_city">Invalid City Name</string>
+    <string name="on_failure">Could not communicate with the weatherAPI.</string>
+</resources>
