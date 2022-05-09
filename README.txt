@@ -1,0 +1,1 @@
+This android application allows users to search for, select and add cities all over the world and then view their weather details in real-time. It communicates with the openweathermap API (https://openweathermap.org/) to generate the weather data in real-time.
